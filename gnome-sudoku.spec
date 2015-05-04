@@ -1,8 +1,8 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-sudoku
-Version:	3.14.2
-Release:	%mkrel 2
+Version:	3.16.0
+Release:	1
 Summary:	GNOME Sudoku game
 License:	GPLv2+ and CC-BY-SA
 Group:		Games/Puzzles
@@ -31,13 +31,13 @@ GNOME version of the popular Sudoku Japanese logic game.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
 %makeinstall_std
 
-%find_lang %{name} --with-gnome --with-help
+%find_lang %{name} --with-gnome
 
 %files -f %{name}.lang
 %doc COPYING
