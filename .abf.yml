@@ -1,4 +1,5 @@
 removed_sources:
   gnome-sudoku-3.14.2.tar.xz: 0dea744a890281ce78da0e80384243931b2b8055
-sources:
   gnome-sudoku-3.16.0.tar.xz: 5b92380696bb4ce56ff32201299f7cde067bdc29
+sources:
+  gnome-sudoku-3.18.1.tar.xz: 942bdd443097a324770766e46fae236a509b492f
