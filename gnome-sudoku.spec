@@ -2,7 +2,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-sudoku
-Version:	3.18.2
+Version:	3.30.0
 Release:	1
 Summary:	GNOME Sudoku game
 License:	GPLv2+ and CC-BY-SA
@@ -20,6 +20,9 @@ BuildRequires:	pkgconfig(gio-2.0) >= 2.40.0
 BuildRequires:	pkgconfig(qqwing) >= 1.1.3
 BuildRequires:	pkgconfig(gee-0.8)
 BuildRequires:	pkgconfig(json-glib-1.0)
+BuildRequires:	pkgconfig(pygobject-3.0)
+BuildRequires:	meson
+BuildRequires:	vala
 # For help
 Requires:	yelp
 
@@ -32,12 +35,11 @@ GNOME version of the popular Sudoku Japanese logic game.
 %setup -q
 
 %build
-export CFLAGS='-Wno-error'
-%configure --enable-compile-warnings=no
-%make
+%meson
+%meson_build
 
 %install
-%makeinstall_std
+%meson_install
 
 %find_lang %{name} --with-gnome
 
