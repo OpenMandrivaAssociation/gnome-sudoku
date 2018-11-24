@@ -52,4 +52,4 @@ GNOME version of the popular Sudoku Japanese logic game.
 %{_iconsdir}/*/*/apps/%{name}.*
 %{_iconsdir}/*/*/apps/%{name}-symbolic.*
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/appdata/%{name}.appdata.xml
+%{_datadir}/metainfo/%{name}.appdata.xml
