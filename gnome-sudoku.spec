@@ -14,7 +14,9 @@ BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
 BuildRequires:	python3
+BuildRequires:  gtk-update-icon-cache
 BuildRequires:	pkgconfig(gtk+-3.0)
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(glib-2.0) >= 2.40.0
 BuildRequires:	pkgconfig(gio-2.0) >= 2.40.0
 BuildRequires:	pkgconfig(qqwing) >= 1.1.3
