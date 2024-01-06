@@ -2,7 +2,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-sudoku
-Version:	45.3
+Version:	45.4
 Release:	1
 Summary:	GNOME Sudoku game
 License:	GPLv2+ and CC-BY-SA
