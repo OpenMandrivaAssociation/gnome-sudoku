@@ -53,4 +53,4 @@ GNOME version of the popular Sudoku Japanese logic game.
 %{_datadir}/dbus-1/services/org.gnome.Sudoku.service
 %{_iconsdir}/*/*/apps/org.gnome.Sudoku*.*
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/metainfo/org.gnome.Sudoku.appdata.xml
+#{_datadir}/metainfo/org.gnome.Sudoku.appdata.xml
