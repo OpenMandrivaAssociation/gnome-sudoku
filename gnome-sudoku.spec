@@ -23,6 +23,7 @@ BuildRequires:	pkgconfig(qqwing) >= 1.1.3
 BuildRequires:	pkgconfig(gee-0.8)
 BuildRequires:	pkgconfig(json-glib-1.0)
 BuildRequires:	pkgconfig(pygobject-3.0)
+BuildRequires:  pkgconfig(blueprint-compiler)
 BuildRequires:	meson
 BuildRequires:	vala
 # For help
