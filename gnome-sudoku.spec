@@ -10,10 +10,12 @@ Group:		Games/Puzzles
 URL:		https://wiki.gnome.org/Apps/Sudoku
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	pkgconfig(pygobject-3.0) >= 2.28.3
+BuildRequires:  appstream
 BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
 BuildRequires:	python3
+BuildRequires:  desktop-file-utils
 BuildRequires:  gtk-update-icon-cache
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:	pkgconfig(gtk4)
