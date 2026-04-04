@@ -2,7 +2,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-sudoku
-Version:	49.3
+Version:	50.0
 Release:	1
 Summary:	GNOME Sudoku game
 License:	GPLv2+ and CC-BY-SA
@@ -13,7 +13,7 @@ BuildRequires:	pkgconfig(pygobject-3.0) >= 2.28.3
 BuildRequires:  appstream
 BuildRequires:	intltool
 BuildRequires:	itstool
-BuildRequires:	libxml2-utils
+BuildRequires:	libxml2-utils >= 2.15.2
 BuildRequires:	python3
 BuildRequires:  desktop-file-utils
 BuildRequires:  gtk-update-icon-cache
