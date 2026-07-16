@@ -3,7 +3,7 @@
 
 Name:		gnome-sudoku
 Version:	50.3
-Release:	2
+Release:	3
 Summary:	GNOME Sudoku game
 License:	GPLv2+ and CC-BY-SA
 Group:		Games/Puzzles
